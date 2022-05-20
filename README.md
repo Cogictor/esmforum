@@ -1,4 +1,4 @@
-# Forum: Sistema de Demonstração
+# ESMForum: Sistema de Demonstração
 
 Este repositório contem uma implementação simples de um fórum para demonstração dos conceitos apresentados no livro [Engenharia de Software Moderna](https://engsoftmoderna.info).
 
