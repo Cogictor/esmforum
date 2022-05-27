@@ -18,7 +18,7 @@ type Props = {
   canCascade: boolean;
 }
 
-const ExibitComment = (
+const ExhibitComment = (
   props: Props
 ) => {
   const isEditing = props.activeComment &&
@@ -149,7 +149,7 @@ const ExibitComment = (
         {props.cascade.enable && (props.comment.commentid === props.cascade.id || !props.canCascade) && props.listreplies.length > 0 && (
           <div className="replies">
             {props.listreplies.map((reply:Comment) => (
-              <ExibitComment
+              <ExhibitComment
                 comment={reply}
                 key={reply.commentid}
                 setComment={props.setComment}
@@ -174,4 +174,4 @@ const ExibitComment = (
   )
 }
 
-export default ExibitComment;
+export default ExhibitComment;

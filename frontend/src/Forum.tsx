@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { Comment } from "../../src/models/comment"
-import ExibitComment from "./ExibitComment"
+import ExhibitComment from "./ExhibitComment"
 import Form from "./Form"
 
 const Forum = ( {commentsUrl= '', currentUserid = 1}) => {
@@ -126,7 +126,7 @@ const Forum = ( {commentsUrl= '', currentUserid = 1}) => {
       </div>
       <div className="comments-container">
         {questions.map((question: Comment) => (
-          <ExibitComment
+          <ExhibitComment
             key={question.commentid}
             comment= {question}
             getReplies={getComments}
